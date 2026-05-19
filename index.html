@@ -137,6 +137,7 @@
     .edu-item{border-left:3px solid var(--teal);padding-left:15px}
     .edu-item strong{display:block;color:var(--ink);font-size:1rem}
     .edu-item span{display:block;margin-top:4px;color:var(--muted);font-size:0.91rem}
+    .edu-year{display:inline-block;margin-bottom:4px;color:var(--teal);font-size:0.78rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase}
     .compact-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
     .pill-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
     .large-pill{border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,0.78);padding:10px 14px;color:#314459;font-weight:840}
@@ -182,7 +183,7 @@
           <li><a href="#competences">Compétences</a></li>
           <li><a href="#experiences">Expériences</a></li>
           <li><a href="#projets">Projets</a></li>
-          
+          <li><a href="#formations">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -415,17 +416,41 @@
       </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
+    <!-- FORMATIONS & DIPLÔMES -->
     
 
-    <!-- LANGUES & INTÉRÊTS (si pas de certif) -->
+    <!-- CERTIFICATIONS -->
     
-    <section class="soft-bg" id="langues">
-      <div class="container compact-panel">
-        <article class="card reveal"><span class="icon">LA</span><h3>Langues</h3><div class="pill-list"><span class="large-pill">Français</span><span class="large-pill">Anglais</span></div></article>
-        <article class="card reveal"><span class="icon">IN</span><h3>Centres d'intérêt</h3><div class="pill-list"><span class="large-pill">Voyages</span><span class="large-pill">Football</span><span class="large-pill">Basketball</span></div></article>
+    <section class="soft-bg" id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">Certifications</span><h2>Certifications professionnelles</h2></div>
+        </div>
+        <div class="education-board">
+          <article class="card reveal">
+            <span class="icon">📜</span>
+            <h3>Certifications obtenues</h3>
+            <div class="edu-list">
+    <div class="edu-item">
+      <strong>Marketing</strong>
+      <span>Numérique</span>
+    </div>
+    <div class="edu-item">
+      <strong>Projet de développement</strong>
+      <span>AFD</span>
+    </div></div>
+          </article>
+          
+          <article class="card reveal">
+            <span class="icon">LA</span><h3>Langues</h3><div class="pill-list"><span class="large-pill">Français</span><span class="large-pill">Anglais</span></div>
+            <h3 style="margin-top:18px">Centres d'intérêt</h3><div class="pill-list"><span class="large-pill">Voyages</span><span class="large-pill">Football</span><span class="large-pill">Basketball</span></div>
+          </article>
+        </div>
       </div>
     </section>
+
+    <!-- LANGUES & INTÉRÊTS (si ni formations ni certif) -->
+    
 
     <!-- CONTACT -->
     <section id="contact">
